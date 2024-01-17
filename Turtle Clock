@@ -1,0 +1,24 @@
+# Turtle Clock with Jose
+# By Mona
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+jose = turtle.Turtle()
+jose.shape("turtle")
+jose.color("red")
+jose.penup()
+
+
+for size in range(12):
+  jose.forward(40)
+  jose.pendown()
+  jose.forward(10)
+  jose.penup()
+  jose.forward(20)
+  jose.stamp()
+  jose.forward(-70)
+  jose.right(30)
+
+
+wn.mainloop()
