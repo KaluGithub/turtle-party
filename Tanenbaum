@@ -1,0 +1,14 @@
+import turtle
+
+tanenbaum = turtle.Turtle()
+
+
+tanenbaum.hideturtle()
+tanenbaum.speed(20)
+tanenbaum.color("blue")
+
+for i in range(200):
+    tanenbaum.forward(i)
+    tanenbaum.right(98)
+   
+    
