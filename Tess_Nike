@@ -1,0 +1,38 @@
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor("lightblue")
+# wn.title("Tess & Nike")
+
+tess = turtle.Turtle()
+tess.color("hotpink")
+tess.pensize(1)
+tess.hideturtle()
+tess.speed(20)
+
+nike = turtle.Turtle()
+nike.color("blue")
+nike.pensize(1)
+nike.hideturtle()
+nike.speed(20)
+
+
+for i in range(200):
+    tess.forward(i)
+    tess.right(98)
+   
+   
+for i in range(200):
+    nike.forward(i)
+    nike.right(78)
+    
+for i in range(200):
+    tess.color("green")
+    tess.forward(50)
+    tess.right(88)
+    
+    
+for i in range(200):
+    nike.color("red")
+    nike.forward(100)
+    nike.right(95)
